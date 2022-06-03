@@ -1,0 +1,53 @@
+div. row{
+    padding: 3.5rem 0 3.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 1rem;
+    position: inherit;
+    vertical-align: middle;
+}
+div .container_1{
+    background-color: white;
+}
+div .h1_title{
+    padding: 1rem 2rem 1rem 2rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: var(--mainColorBackground);
+}
+div. teacher{
+    position: inherit;
+}
+div .h1_button{
+    padding: 1rem 2rem 1rem 2rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--btnBlue);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+div .background_color_orange{
+    position: inherit;
+    width: 100%;
+    height: 113px;
+    background: #D9895B;
+    border: 1px solid #000000;
+}
+div .arrow{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,46 @@
+
+div .row{
+    padding: 3.5rem 2rem 3.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 1rem;
+    position: inherit;
+    vertical-align: middle;
+}
+div .review-person{
+    position: inherit;
+    width: 400px;
+    height: 151px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px
+}
+div .img_avatar{
+    box-sizing: border-box;
+    position: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    width: 85px;
+    height: 85px;
+    border-radius: 15px;
+    padding-left: 1rem;
+}
+div .info{
+    position: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    width: 257px;
+    height: 127px;
+    padding-left: 2rem;
+}
+div .more_info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
