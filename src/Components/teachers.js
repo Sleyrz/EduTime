@@ -1,5 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa'
 import "../Styles/style_teacher.css"
+import "../Styles/main.css"
 
 function Teachers() {
     return(
@@ -10,13 +11,13 @@ function Teachers() {
             </div>
                 <div className="row">
                     <div className="teacher">
-                        <img src={require('../image/teacher1.png')} />
+                        <img src={require('../image/teacher1.png')} alt="nauczyciel 1" />
                     </div>
                     <div className="teacher">
-                        <img src={require('../image/teacher2.png')} />
+                        <img src={require('../image/teacher2.png')} alt="nauczyciel 2" />
                     </div>
                     <div className="teacher">
-                        <img src={require('../image/teacher3.png')} />
+                        <img src={require('../image/teacher3.png')} alt="nauczyciel 3b"/>
                     </div>
                 </div>
                 <div className="row">
@@ -24,9 +25,9 @@ function Teachers() {
                 </div>
                 <div className="row">
                     <div className="row background_color_orange">
-                        <div>Zapisz się na lekcję próbną</div>
+                        <div className="white_word">Zapisz się na lekcję próbną</div>
                         <div className="arrow"><FaArrowRight/></div>
-                        <div>Zapisz się już teraz</div>
+                        <div className="blue_button_uppercase">Zapisz się już teraz</div>
                     </div>
                 </div>
             </div>

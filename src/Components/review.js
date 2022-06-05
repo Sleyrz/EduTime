@@ -6,7 +6,7 @@ function Review(){
             <div className="row">
                 <div className="review-person">
                     <div className="img_avatar">
-                        <img className="fav_model" src={require('../image/user1.png')} />
+                        <img className="fav_model" src={require('../image/user1.png')} alt="user 1" />
                     </div>
                     <div className="info">
                         <h3>Adam Kowalski</h3>
@@ -18,7 +18,7 @@ function Review(){
                 </div>
                 <div className="review-person">
                     <div className="img_avatar">
-                        <img className="fav_model" src={require('../image/user1.png')} />
+                        <img className="fav_model" src={require('../image/user1.png')} alt="user 1" />
                     </div>
                     <div className="info">
                         <h3>Adam Kowalski</h3>
@@ -30,7 +30,7 @@ function Review(){
                 </div>
                 <div className="review-person">
                     <div className="img_avatar">
-                        <img className="fav_model" src={require('../image/user1.png')} />
+                        <img className="fav_model" src={require('../image/user1.png')} alt="user 1"/>
                     </div>
                     <div className="info">
                         <h3>Adam Kowalski</h3>

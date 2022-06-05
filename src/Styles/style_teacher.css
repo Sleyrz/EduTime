@@ -1,13 +1,3 @@
-div. row{
-    padding: 3.5rem 0 3.5rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:space-around;
-    gap: 1rem;
-    position: inherit;
-    vertical-align: middle;
-}
 div .container_1{
     background-color: white;
 }
@@ -43,11 +33,40 @@ div .h1_button{
 }
 div .background_color_orange{
     position: inherit;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    height: 113px;
     background: #D9895B;
     border: 1px solid #000000;
+    padding: 0;
+}
+div .white_word{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 4rem;
+    color: #FFFFFF;
 }
 div .arrow{
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+div .blue_button_uppercase{
+    background-color: #4184BF;
+    padding:2rem 1.5rem 2rem 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }

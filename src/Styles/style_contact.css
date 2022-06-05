@@ -1,0 +1,57 @@
+div .formularz{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 50rem;
+}
+div .h2_contact{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 2rem;
+}
+div .button_submit{
+    background: #4184BF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 25rem;
+}
+input{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    vertical-align: middle;
+    align-self:center;
+}
+.MuiOutlinedInput-root{
+    background-color: var(--mainColorBackground);
+    width: 100%;
+    padding:0;
+}
+div .form_name{
+    padding: 0;
+}
+div .name_second{
+    padding: 0;
+    margin: 0;
+    flex-grow: 2;
+}
+div .row_1{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    position: inherit;
+    vertical-align: middle;
+    justify-content: center;
+}

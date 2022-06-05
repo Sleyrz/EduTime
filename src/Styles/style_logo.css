@@ -1,0 +1,16 @@
+div .row_logo{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 1rem;
+    position: inherit;
+    vertical-align: middle;
+}
+div .logo{
+    padding: 2rem 3rem 0 0;
+}
+div .logo img{
+    height:50%;
+}

@@ -94,12 +94,20 @@ nav a:hover{
 div .container{
     position: inherit;
 }
+div. row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 1rem;
+    position: inherit;
+    vertical-align: middle;
+}
 div .home{
     position: inherit;
     vertical-align: middle;
     width: 100%;
     height: 350px;
-    margin-top: 15rem;
     background: #FFFFFF;
     border: 1px solid #000000;
 }
